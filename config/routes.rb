@@ -3,5 +3,6 @@ Rails.application.routes.draw do
   get 'about', to: 'pages#about'
   get 'articles', to: 'pages#articles'
   get 'projects', to: 'pages#projects'
+  get 'music', to: 'pages#music'
 end
 

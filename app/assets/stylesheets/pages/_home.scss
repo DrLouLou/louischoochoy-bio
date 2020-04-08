@@ -1,1 +1,12 @@
 // Specific CSS for your home-page
+.content-page {
+  height: 88.3vh;
+  background-image: url(https://cdn.pixabay.com/photo/2016/11/06/10/38/old-1802683_1280.jpg);
+  opacity: 0.4;
+}
+
+nav ul li button {
+  text-decoration: none;
+  border: none;
+  background-color: #F1C40F;
+}
