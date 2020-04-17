@@ -6,5 +6,6 @@ Rails.application.routes.draw do
   get 'music', to: 'pages#music'
   get 'books', to: 'pages#books'
   get 'infohub', to: 'pages#infohub'
+  get 'contact', to: 'pages#contact'
 end
 
