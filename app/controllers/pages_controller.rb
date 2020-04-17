@@ -13,4 +13,13 @@ class PagesController < ApplicationController
 
   def music
   end
+
+  def books
+  end
+
+  def infohub
+  end
+
+  def contact
+  end
 end

@@ -11,7 +11,7 @@ h1 {
 }
 
 nav ul li button {
-  text-decoration: none;
+  // text-decoration: none;
   border: none;
   background-color: #F1C40F;
 }
@@ -100,7 +100,7 @@ article {
   }
 
   &:nth-child(4) {
-    background: linear-gradient(45deg, $purple, $yellow);
+    background: linear-gradient(45deg, $purple, $blue);
   }
 
   &:nth-child(5) {
@@ -108,7 +108,7 @@ article {
   }
 
   &:nth-child(6) {
-    background: linear-gradient(45deg, $purple, $blue);
+    background: linear-gradient(45deg, $purple, $yellow);
   }
 
   &:last-child {
@@ -157,14 +157,6 @@ article {
     font-size: 2em;
     line-height: 1;
     margin-bottom: $space*2;
-  }
-
-  .comments {
-    float: right;
-    background: $green;
-    color: $neutral;
-    font-family: $din;
-    padding: $pad/4;
   }
 }
 
