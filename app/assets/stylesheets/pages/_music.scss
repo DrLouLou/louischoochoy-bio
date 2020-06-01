@@ -1,6 +1,21 @@
 .music-content-page {
   height: 90.8vh;
-  background-image: url(https://cdn.pixabay.com/photo/2018/05/17/15/24/armillar-ball-3408811_1280.jpg);
+  // background-image: url(https://cdn.pixabay.com/photo/2018/05/17/15/24/armillar-ball-3408811_1280.jpg);
   background-size: 1675px;
-  opacity: 0.4;
+  // opacity: 0.4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.music-container {
+  width: 40vh;
+  height: 60vh;
+  display:inline-block;
+  text-align:center;
+  padding:10px 15px;
+  font-size:18px;
+  background-color:#f5f8fc;
+  border-radius:10px;
+  box-shadow:0 1px 2px rgba(1,1,1,.4);
 }
